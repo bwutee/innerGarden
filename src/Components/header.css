@@ -1,0 +1,29 @@
+.topNav{
+    padding-top: 24px;
+    padding-right: 120px;
+    padding-left: 120px;
+    height: 6vh;
+}
+.floatRight{
+    float: right;
+}
+.floatRight a{
+    padding-left: 30px;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+.logo{
+    font-size: 23px;
+    font-weight: 600;
+    color: black;
+  }

@@ -1,0 +1,38 @@
+.editMain{
+    padding: 40px 450px 50px 450px;
+}
+.editPageTop{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.editPageTopRight {
+    margin-left: auto;
+    font-size: 16px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+#saveBttn:hover{
+    color: rgb(141, 81, 51);
+}
+#cancleBttn {
+    color: black;
+    padding-left: 15px;
+}
+#cancleBttn:hover{
+    color: rgb(141, 81, 51);
+}
+textarea{
+    width: 100%;
+    padding: 12px;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 65vh;
+    border-radius: 14px;
+    font-size: 14px;
+    line-height: 1.8;
+    resize: none;
+}

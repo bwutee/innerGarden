@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "%7Busername%7D.github.io/%7Brepo-name%7D/precache-manifest.3f41713b90d1e62829946ed51b7aa3b1.js"
+  "/innerGarden/precache-manifest.e08ad15f87df0b86c5c97cb21f98db44.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("%7Busername%7D.github.io/%7Brepo-name%7D/index.html", {
+workbox.routing.registerNavigationRoute("/innerGarden/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
